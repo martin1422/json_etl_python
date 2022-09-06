@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Martin",
+        "apellido": "Cassino",
+        "DNI:": 30123123,
+        "prendas": [
+            {
+                "zapatillas": "NIKE",
+                "cantidad": 2
+            },
+            {
+                "remeras": "Lacoste",
+                "cantidad": 5
+            }
+        ]
+    }
+]

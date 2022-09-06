@@ -34,13 +34,13 @@ if __name__ == '__main__':
     data = response.json()
 
     for user in data:
-        if user['userId'] > 2:
+        if user['userId'] > 5:
             # No mostrar más de 2 usuarios
             # para no ocupar toda la pantalla con mensajes
             break
-        print('El usuario {} completó {}? {}'.format(user['userId'],
+        print('El usuario {} completó {}? {}'.format( user['userId'],
                                                       user['title'],
                                                       user['completed']
-                                                      ))
+                                                    ))
 
     print("terminamos")

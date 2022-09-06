@@ -70,7 +70,7 @@ if __name__ == '__main__':
     line, = plt.plot(data)
 
     # Graficar
-    animation = FuncAnimation(fig, update_animation, interval=1000)
+    animation = FuncAnimation(fig, update_animation, interval=100)
     plt.show()
 
     print("terminamos")
